@@ -22,24 +22,24 @@ body {
   background-size: cover;
   background-color: var(--pale-blue);
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 
 .card {
-  width: 450px;
+  width: 28.125rem ;
   background-color: white;
   color: var(--desaturated-blue);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 3.125rem auto;
 
 }
 
 .title {
   color: var(--dark-blue);
   font-weight: 900;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 
@@ -48,29 +48,29 @@ body {
 }
 
 .container {
-  padding: 30px;
+  padding: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 
 .container > * {
-  margin: 13px 0;
+  margin: 0.8125rem 0;
 
 }
 
 .order-description {
-  line-height: 25px;
+  line-height: 1.5625rem;
 }
 
 .plan-container {
-  font-size: 16px;
+  font-size: 1rem;
   background-color: var(--very-pale-blue);
-  padding: 25px;
-  border-radius: 12px;
+  padding: 1.6525rem;
+  border-radius: 0.75rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,8 +79,8 @@ body {
 
 .plan-container a {
   color: var(--bright-blue);
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 0.8125rem;
+  font-weight: 700 /*calc(16 * (100 / 700))*/ ;
 }
 
 .plan-container a:hover {
@@ -93,16 +93,16 @@ body {
 }
 
 .plan-descriptipion {
-  line-height: 20px;
-  margin-right: 75px;
+  line-height: 1.25rem;
+  margin-right: 4.6875rem;
 }
 
 
 button {
   width: 100%;
   border: none;
-  border-radius: 12px;
-  font-weight: 700;
+  border-radius: 0.75rem;
+  font-weight: 700 /* calc( 16 * (100 / 700)) */;
   cursor: pointer;
   font-size: 0.9rem;
 
@@ -112,7 +112,7 @@ button {
   background-color: var(--bright-blue);
   padding: 1rem 0;
   color: white;
-  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+  box-shadow: 0 1.25rem 1.875rem -0.5rem rgb(197 189 245);
 
 }
 
@@ -123,7 +123,7 @@ button {
 .cancel-button {
   background-color: white;
   color: var(--desaturated-blue);
-  margin-top: 22px;
+  margin-top: 1.375rem;
   
 }
 
